@@ -1,0 +1,108 @@
+package com.cbi.simulator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.cbi.simulator.bean.WeatherInfo;
+import com.cbi.simulator.common.WeatherConfig;
+
+/**
+ * Weather data simulation class.Class generate weather data for a weather
+ * station.
+ * 
+ * @author Sreejith
+ *
+ */
+public class WeatherStation implements Runnable {
+
+	private final List<IweatherbroadCast> weatherbroadCast;
+	private final int frequency;
+	private boolean isStationRunnning;
+	private String stationName;
+	private String stationId;
+
+	public WeatherStation(WeatherConfig weatherConfig) {
+		weatherbroadCast = new ArrayList<IweatherbroadCast>();
+		this.frequency = weatherConfig.getUpdateFrequency();
+		this.stationName = weatherConfig.getStationName();
+		this.stationId = weatherConfig.getStationId();
+	}
+
+	/**
+	 * Function add call back listener for weather update. Weather station will
+	 * give back weather update to registered listener.
+	 * 
+	 * @param iweatherbroadCast
+	 */
+	public void addWeatherBroadCast(IweatherbroadCast iweatherbroadCast) {
+		synchronized (weatherbroadCast) {
+			weatherbroadCast.add(iweatherbroadCast);
+		}
+	}
+
+	/**
+	 * Remove weather broad cast update.
+	 * 
+	 * @param iweatherbroadCast
+	 */
+
+	public void removeWeatherBroadCast(IweatherbroadCast iweatherbroadCast) {
+		synchronized (weatherbroadCast) {
+			if (weatherbroadCast.contains(iweatherbroadCast)) {
+				weatherbroadCast.remove(iweatherbroadCast);
+			}
+		}
+	}
+
+	/**
+	 * Function will start weather station if it is not started.
+	 */
+	public void startWeatherStation() {
+		if (!isStationRunnning) {
+			isStationRunnning = true;
+		}
+	}
+
+	/**
+	 * Function will stop the current station
+	 */
+	public void stopWeatherStation() {
+		isStationRunnning = false;
+
+	}
+
+	@Override
+	public void run() {
+
+		while (isStationRunnning) {
+
+			WeatherInfo weatherInfo = getWeatherInfo();
+			synchronized (weatherbroadCast) {
+
+				for (IweatherbroadCast iweatherbroadCast : weatherbroadCast) {
+					iweatherbroadCast.onWeatherBroadCast(weatherInfo);
+				}
+
+				try {
+					Thread.sleep(frequency * 1000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+
+	}
+
+	/**
+	 * Function generate dummy weather data.
+	 * 
+	 * @return WeatherInfo
+	 */
+
+	private WeatherInfo getWeatherInfo() {
+		WeatherInfo weatherInfo = new WeatherInfo();
+		weatherInfo.setStationId(stationId);
+		weatherInfo.setStationName(stationName);
+		return weatherInfo;
+	}
+}

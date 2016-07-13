@@ -1,0 +1,12 @@
+[
+  {
+    "stationId": "1001",
+    "stationName": "SYN",
+    "updateFrequency": 2
+  },
+  {
+    "stationId": "1002",
+    "stationName": "SYN",
+    "updateFrequency": 3
+  }
+]

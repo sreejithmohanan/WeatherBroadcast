@@ -1,0 +1,35 @@
+package com.cbi.weatherprediction;
+
+import com.cbi.simulator.bean.WeatherInfo;
+
+public class WeatherPredictor {
+
+	// Humidity
+	private static int MINUM_HUMIDITY_FOR_RAIN = 75;
+	private static int MINUM_HUMIDITY_FOR_SNOW = 40;
+
+	private static float MINUM_TEMP_FOR_SUNNY_DAY = 26f;
+	private static float MINUM_TEMP_FOR_FOR_RAIN = 16f;
+
+	private static float MINUM_PRESSURE_FOR_SUNNY_DAY = 1100f;
+	private static float MINUM_PRESSURE_FOR_FOR_RAIN = 1000f;
+
+	private float avgTemp;
+	private float avgPressure;
+	private float avghumidity;
+	private long updateCounter;
+
+	public void processWeatherForecast(WeatherInfo weatherInfo) {
+		updateCounter++;
+
+		avgTemp = ((updateCounter - 1) * avgTemp + weatherInfo.getTemprature())
+				/ updateCounter;
+
+		avgPressure = ((updateCounter - 1) * avgPressure + weatherInfo
+				.getPressure()) / updateCounter;
+
+		avghumidity = ((updateCounter - 1) * avghumidity + weatherInfo
+				.getHumidity()) / updateCounter;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.cbi.simulator.bean;
+
+public class WeatherInfo {
+
+}

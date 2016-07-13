@@ -1,0 +1,32 @@
+[
+  {
+    "stationId": "1001",
+    "stationName": "SYN",
+    "updateFrequency": 2
+  },
+  {
+    "stationId": "1002",
+    "stationName": "SYN",
+    "updateFrequency": 3
+  },
+  {
+    "stationId": "1003",
+    "stationName": "SYN",
+    "updateFrequency": 3
+  },
+  {
+    "stationId": "1004",
+    "stationName": "SYN",
+    "updateFrequency": 3
+  },
+  {
+    "stationId": "1005",
+    "stationName": "SYN",
+    "updateFrequency": 3
+  },
+  {
+    "stationId": "1006",
+    "stationName": "SYN",
+    "updateFrequency": 3
+  }
+]

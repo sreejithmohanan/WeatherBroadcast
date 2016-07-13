@@ -1,0 +1,5 @@
+package com.cbi.simulator.common;
+
+public class weatherConfig {
+
+}

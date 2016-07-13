@@ -1,0 +1,111 @@
+[
+  {
+    "stationId": "1001",
+    "stationName": "SYN",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },
+  {
+     "stationId": "1002",
+    "stationName": "CAN",
+    "temperature":32.0,
+    "updateFrequency": 6,
+    "pressure":900.1,
+    "humidity":33.00,
+    "latitude":35.55,
+    "longitude":149.13,
+    "altitude":66.00
+     
+  },
+  {
+    "stationId": "1001",
+    "stationName": "MEL",
+    "temperature":16.0,
+    "updateFrequency": 5,
+    "pressure":800.1,
+    "humidity"60:.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },
+  {
+   "stationId": "1001",
+    "stationName": "ADL",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },
+  {
+    "stationId": "1001",
+    "stationName": "BRB",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },
+  {
+    "stationId": "1001",
+    "stationName": "PRH",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },
+  {
+    "stationId": "1001",
+    "stationName": "QLD",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },
+  {
+    "stationId": "1001",
+    "stationName": "NSW",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },{
+    "stationId": "1001",
+    "stationName": "DAR",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66.00
+  },{
+    "stationId": "1001",
+    "stationName": "HOB",
+    "temperature":22.0,
+    "updateFrequency": 5,
+    "pressure":1000.1,
+    "humidity":90.00,
+    "latitude":42.88,
+    "longitude":147.32,
+    "altitude":66.00
+  }
+]

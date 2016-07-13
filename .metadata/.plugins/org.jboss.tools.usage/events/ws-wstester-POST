@@ -1,0 +1,11 @@
+#Sat Apr 23 18:32:53 IST 2016
+vl=How many times during the day
+l=Request method (JAX-WS|GET|POST|PUT|DELETE|OPTIONS)
+ct=ws
+d=1461416572519
+c=0
+cmp=ws
+a=wstester
+cl=POST
+v=1.7.3
+s=0

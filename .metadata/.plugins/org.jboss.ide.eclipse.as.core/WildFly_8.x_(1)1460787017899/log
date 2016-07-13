@@ -1,0 +1,74 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-04-16 11:44:34.407
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-04-16 11:44:37.661
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 11:44:37.664
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-04-16 11:44:53.808
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-04-16 11:44:56.575
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 11:44:57.707
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 15:30:46.172
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 15:31:06.202
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 16:35:22.637
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 16:35:43.354
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 16:43:10.263
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 16:43:30.403
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 16:56:33.400
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 16:56:53.513
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 16:57:14.688
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 16:57:34.810
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 17:00:21.321
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 17:00:41.428
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 17:16:55.179
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 17:17:15.298
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-04-16 17:43:14.324
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-04-16 17:43:35.058
+!MESSAGE Module Jersey-UP-DOWN-Zip-File on WildFly 8.x (1) still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-04-16 17:54:11.648
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2016-04-16 17:54:12.960
+!MESSAGE Server Shutdown Succeeded

@@ -1,0 +1,5 @@
+package com.cbi.simulator;
+
+public interface IweatherbroadCast {
+	public void onWeatherBroadCast();
+}

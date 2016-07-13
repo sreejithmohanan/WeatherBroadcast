@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.cbi.simulator.WeatherStation.weatherStationMode"/>
+<fullyQualifiedTypeName name="com.cbi.simulator.IweatherbroadCast"/>
+<fullyQualifiedTypeName name="com.cbi.simulator.WeatherStation"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="com.cbi.simulator.WeatherStationManager"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.concurrent.CopyOnWriteArrayList"/>
+<fullyQualifiedTypeName name="com.cbi.weatherprediction.WeatherPredictor.WeatherType"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.cbi.weatherprediction.WeatherPredictor"/>
+<fullyQualifiedTypeName name="com.cbi.simulator.bean.WeatherInfo"/>
+<fullyQualifiedTypeName name="com.cbi.simulator.common.WeatherConfig"/>
+<fullyQualifiedTypeName name="com.cbi.weatherprediction.common.Utils"/>
+</qualifiedTypeNameHistroy>

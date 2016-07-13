@@ -1,0 +1,54 @@
+package com.cbi.simulator.common;
+
+public class WeatherConfig {
+
+	private String stationId;
+	private String stationName;
+	private int updateFrequency;
+
+	/**
+	 * @return the stationId
+	 */
+	public String getStationId() {
+		return stationId;
+	}
+
+	/**
+	 * @param stationId
+	 *            the stationId to set
+	 */
+	public void setStationId(String stationId) {
+		this.stationId = stationId;
+	}
+
+	/**
+	 * @return the stationName
+	 */
+	public String getStationName() {
+		return stationName;
+	}
+
+	/**
+	 * @param stationName
+	 *            the stationName to set
+	 */
+	public void setStationName(String stationName) {
+		this.stationName = stationName;
+	}
+
+	/**
+	 * @return the updateFrequency
+	 */
+	public int getUpdateFrequency() {
+		return updateFrequency;
+	}
+
+	/**
+	 * @param updateFrequency
+	 *            the updateFrequency to set
+	 */
+	public void setUpdateFrequency(int updateFrequency) {
+		this.updateFrequency = updateFrequency;
+	}
+
+}

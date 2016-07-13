@@ -1,0 +1,131 @@
+package com.cbi.simulator.bean;
+
+public class WeatherInfo {
+
+	private String stationId;
+	private String StationName;
+	private float temperature;
+	private float pressure;
+	private float humidity;
+	private float latitude;
+	private float longitude;
+	private float altitude;
+	
+	
+
+	public WeatherInfo() {
+	}
+
+	public WeatherInfo(String stationId, String stationName, float temperature,
+			float pressure, float humidity, float latitude, float longitude,
+			float altitude) {
+		super();
+		this.stationId = stationId;
+		StationName = stationName;
+		this.temperature = temperature;
+		this.pressure = pressure;
+		this.humidity = humidity;
+		this.latitude = latitude;
+		this.longitude = longitude;
+		this.altitude = altitude;
+	}
+
+	public float getLatitude() {
+		return latitude;
+	}
+
+	public void setLatitude(float latitude) {
+		this.latitude = latitude;
+	}
+
+	public float getLongitude() {
+		return longitude;
+	}
+
+	public void setLongitude(float longitude) {
+		this.longitude = longitude;
+	}
+
+	public float getAltitude() {
+		return altitude;
+	}
+
+	public void setAltitude(float altitude) {
+		this.altitude = altitude;
+	}
+
+	/**
+	 * @return the stationId
+	 */
+	public String getStationId() {
+		return stationId;
+	}
+
+	/**
+	 * @param stationId
+	 *            the stationId to set
+	 */
+	public void setStationId(String stationId) {
+		this.stationId = stationId;
+	}
+
+	/**
+	 * @return the stationName
+	 */
+	public String getStationName() {
+		return StationName;
+	}
+
+	/**
+	 * @param stationName
+	 *            the stationName to set
+	 */
+	public void setStationName(String stationName) {
+		StationName = stationName;
+	}
+
+	
+
+	/**
+	 * @return the pressure
+	 */
+	public float getPressure() {
+		return pressure;
+	}
+
+	/**
+	 * @param pressure the pressure to set
+	 */
+	public void setPressure(float pressure) {
+		this.pressure = pressure;
+	}
+
+	/**
+	 * @return the humidity
+	 */
+	public float getHumidity() {
+		return humidity;
+	}
+
+	/**
+	 * @param humidity the humidity to set
+	 */
+	public void setHumidity(float humidity) {
+		this.humidity = humidity;
+	}
+
+	/**
+	 * @return the temperature
+	 */
+	public float getTemperature() {
+		return temperature;
+	}
+
+	/**
+	 * @param temperature the temperature to set
+	 */
+	public void setTemperature(float temperature) {
+		this.temperature = temperature;
+	}
+
+}

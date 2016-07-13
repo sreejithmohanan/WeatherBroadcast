@@ -1,0 +1,5 @@
+package com.cbi.weatherprediction.common;
+
+public class Utils {
+
+}

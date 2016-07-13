@@ -1,0 +1,64 @@
+[
+  {
+    "stationId": "1001",
+    "stationName": "SYN",
+    "temparature":11.0,
+    "updateFrequency": 2
+    "pressure":11.1,
+    "humidity":22.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66
+  },
+  {
+    "stationId": "1002",
+    "stationName": "SYN",
+    "updateFrequency": 3
+    "pressure":11.1,
+    "humidity":22.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66
+     
+  },
+  {
+    "stationId": "1003",
+    "stationName": "SYN",
+    "updateFrequency": 3
+    "pressure":11.1,
+    "humidity":22.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66
+  },
+  {
+    "stationId": "1004",
+    "stationName": "SYN",
+    "updateFrequency": 3
+    "pressure":11.1,
+    "humidity":22.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66
+  },
+  {
+    "stationId": "1005",
+    "stationName": "SYN",
+    "updateFrequency": 3
+    "pressure":11.1,
+    "humidity":22.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66
+  },
+  {
+    "stationId": "1006",
+    "stationName": "SYN",
+    "updateFrequency": 3
+    "pressure":11.1,
+    "humidity":22.00,
+    "latitude":12.55,
+    "longitude":58.00,
+    "altitude":66
+  }
+]

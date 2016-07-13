@@ -1,0 +1,29 @@
+package com.cbi.simulator;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class WeatherStationManagerTest {
+
+	@Test
+	public void testRegisterForWeatherUpdate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRegisterForAllWeatherUpdate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testLoadWeatherStations() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testStartWeatherStations() {
+		fail("Not yet implemented");
+	}
+
+}

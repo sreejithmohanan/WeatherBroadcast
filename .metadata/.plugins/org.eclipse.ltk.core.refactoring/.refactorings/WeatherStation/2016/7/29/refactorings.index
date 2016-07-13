@@ -1,0 +1,12 @@
+1468147328130	Delete element
+1468171981487	Rename type 'WeatherStation'
+1468173288027	Rename type 'weatherConfig'
+1468198752290	Rename field 'isStationRunnning'
+1468199085569	Rename field 'STARTED'
+1468243870740	Delete element
+1468265957406	Encapsulate field 'pressure'
+1468265967731	Encapsulate field 'humidity'
+1468292685692	Copy source folder
+1468293517741	Rename field 'temprature'
+1468373709911	Encapsulate field 'temperature'
+1468373776274	Encapsulate field 'temperature'
