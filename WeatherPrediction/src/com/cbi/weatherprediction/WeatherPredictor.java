@@ -64,6 +64,12 @@ public class WeatherPredictor {
 		return weatherForcast;
 
 	}
+	
+	/**
+	 * Function apply weather prediction rule based on update from weather station.
+	 * @param weatherInfo
+	 * @return
+	 */
 
 	private int appleyWeatherPredictionRule(WeatherInfo weatherInfo) {
 
@@ -84,7 +90,14 @@ public class WeatherPredictor {
 		}
 		return currentWeather;
 	}
-
+/**
+ * Function predict the weather when atmosphere with high humidity.
+ * @param changeInTemp
+ * @param changeInPressure
+ * @param changeInHumidity
+ * @param currentWeather
+ * @return
+ */
 	private int weatherPredictionOnHighHumidity(float changeInTemp,
 			float changeInPressure, float changeInHumidity, int currentWeather) {
 		if (changeInPressure > 0 || changeInTemp > 0) {
@@ -101,7 +114,14 @@ public class WeatherPredictor {
 		}
 		return currentWeather;
 	}
-
+/**
+ * Function predict the weather when atmosphere with low humidity.
+ * @param changeInTemp
+ * @param changeInPressure
+ * @param changeInHumidity
+ * @param currentWeather
+ * @return
+ */
 	private int weatherPredictionOnMediumHumidity(float changeInTemp,
 			float changeInPressure, float changeInHumidity, int currentWeather) {
 		if (changeInPressure > 0 || changeInTemp > 0) {
